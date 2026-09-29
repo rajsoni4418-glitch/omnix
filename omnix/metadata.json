@@ -1,0 +1,9 @@
+{
+  "name": "Omnix",
+  "description": "A production-ready next-generation social platform featuring feeds, stories, short videos, messaging, and communities.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

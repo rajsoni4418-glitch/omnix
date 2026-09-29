@@ -1,0 +1,6 @@
+-- 9. COMMUNITIES
+INSERT INTO public.communities (id, name, description, owner_id, created_at) VALUES ('3568b94f-9999-443c-917e-aa0983c45556', 'Photography Lovers', 'Share your best shots!', '92591183-d56e-425c-8142-a260a541ecbe', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.communities (id, name, description, owner_id, created_at) VALUES ('32dbfd2f-c857-4943-a9b2-602d244e03ac', 'Tech Talk', 'All about the latest tech', '37a00b47-65e7-4b86-af53-fbf5a9e12eae', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.communities (id, name, description, owner_id, created_at) VALUES ('d8cd76ce-4270-4878-beb1-b940af820827', 'Fitness Goals', 'Workout routines and motivation', '47307a70-b9c7-41d6-87bb-f9b0d4fc957b', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.communities (id, name, description, owner_id, created_at) VALUES ('b2562b6c-7817-471a-81ed-76ec933c09a8', 'Foodies Unite', 'Recipes and restaurant reviews', 'b1c1745b-5077-4c08-b014-8b782c22836f', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.communities (id, name, description, owner_id, created_at) VALUES ('45b677f3-c41d-454d-b89a-2d614e5b78b9', 'Travel Bugs', 'Wanderlust and adventures', '48fd3313-058e-44bf-96e0-a0145a35d943', now()) ON CONFLICT DO NOTHING;

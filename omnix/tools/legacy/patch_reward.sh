@@ -1,0 +1,2 @@
+sed -i 's/await supabase.auth.updateUser({/await supabase.rpc('"'"'secure_claim_mission'"'"', { p_user_id: user.id, p_mission_id: missionId, p_reward_coins: mission.reward_coins });\n        \/\/ await supabase.auth.updateUser({/g' src/store/rewardStore.ts
+sed -i 's/await supabase.auth.updateUser({          data: { coins: newBalance }/await supabase.rpc('"'"'secure_purchase_item'"'"', { p_user_id: user.id, p_item_id: itemId, p_price: item.price });\n        \/\/ await supabase.auth.updateUser({ data: { coins: newBalance }/g' src/store/rewardStore.ts

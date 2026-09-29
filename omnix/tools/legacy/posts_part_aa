@@ -1,0 +1,200 @@
+-- 3. POSTS (Part 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('b28723ca-992d-453d-9b82-644a89a1c13d', '99ac3c33-a767-4e31-a51b-73909e9f8289', 'What a beautiful day! ☀️ #sunshine', 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80', now() - interval '16 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('a17b2bab-3fcf-4229-8c17-9cfe70edaa35', 'b1c1745b-5077-4c08-b014-8b782c22836f', 'Exploring new places 🌍 #travel', 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80', now() - interval '4 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('1b48eb20-4ab5-41f9-a3dc-4b9bb76dd8cf', 'a0983f86-4812-47d2-992b-052e6af693c4', 'Hanging out with friends! 🎉 #weekend', 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80', now() - interval '17 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('d7753dd9-9a63-42e8-b4a6-4956d1e1b94c', '29209b5b-6a45-4650-aac7-50d6e2566c5e', 'Coffee time ☕️ #coffeelover', 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80', now() - interval '12 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('a194463c-c133-4993-bba9-940f67ec2a59', '29209b5b-6a45-4650-aac7-50d6e2566c5e', 'Enjoying the little things 😌 #mindfulness', 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80', now() - interval '4 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('e3159919-842c-422d-82c6-6880c87782f9', '6b64a534-b8cb-485f-8a72-10bd3f876fff', 'Hanging out with friends! 🎉 #weekend', 'https://images.unsplash.com/photo-1517430816045-df4b7ef11df1?w=800&q=80', now() - interval '8 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('f35a7f53-2410-41f7-8900-c24f4789ac39', '84ad35bc-5be1-42b1-947a-e073538fd82d', 'Coding away... 💻 #developer', 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80', now() - interval '1 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('76b03bd7-775b-4fb8-872e-d3798dc79861', '5a9bb5f0-0272-4f5e-83c0-79537c0c3087', 'Feeling inspired today ✨ #inspiration', 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80', now() - interval '27 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('9fee8502-8eae-4871-852a-7fc7d0320223', '47307a70-b9c7-41d6-87bb-f9b0d4fc957b', 'Coding away... 💻 #developer', 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80', now() - interval '28 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('7ae5bb09-46cb-4caf-9a51-1028508b253e', 'a0983f86-4812-47d2-992b-052e6af693c4', 'Just finished a great workout 💪 #fitness', 'https://images.unsplash.com/photo-1517430816045-df4b7ef11df1?w=800&q=80', now() - interval '12 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('e1eecede-e8f7-477f-b94c-9eff8c404c5d', '29209b5b-6a45-4650-aac7-50d6e2566c5e', 'Feeling inspired today ✨ #inspiration', 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80', now() - interval '10 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('f198f534-bdf8-412a-aba7-24e97c46d764', '99ac3c33-a767-4e31-a51b-73909e9f8289', 'Hanging out with friends! 🎉 #weekend', 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80', now() - interval '19 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('6e4a4c7f-e671-4609-b500-87abf3872589', '37a00b47-65e7-4b86-af53-fbf5a9e12eae', 'Delicious food! 🍕 #foodie', 'https://images.unsplash.com/photo-1470071131384-001b85755536?w=800&q=80', now() - interval '27 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('1cc031fd-43a3-4e7e-8c2e-4f8865b3f5b5', '8fb7f5ae-b1d5-4ee7-8652-b757393173a5', 'Delicious food! 🍕 #foodie', 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80', now() - interval '1 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('4cabd312-c841-4025-86e1-d4345cd5787b', 'a0983f86-4812-47d2-992b-052e6af693c4', 'Thinking about the future 🤔 #deepthoughts', 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80', now() - interval '22 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('de180bdd-4511-4b55-8f12-1966afb703f7', '47307a70-b9c7-41d6-87bb-f9b0d4fc957b', 'Delicious food! 🍕 #foodie', 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80', now() - interval '5 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('f540a928-1ae4-4724-87a5-c5a2eaeb0223', '47307a70-b9c7-41d6-87bb-f9b0d4fc957b', 'Coding away... 💻 #developer', 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80', now() - interval '28 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('ae401f66-a85e-4baa-b211-288588c221c9', '8fb7f5ae-b1d5-4ee7-8652-b757393173a5', 'What a beautiful day! ☀️ #sunshine', 'https://images.unsplash.com/photo-1505909182942-e2f09aee3e89?w=800&q=80', now() - interval '14 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('c04c0c44-d672-455c-ae3a-d5db531fc5f5', '99ac3c33-a767-4e31-a51b-73909e9f8289', 'Feeling inspired today ✨ #inspiration', 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80', now() - interval '5 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('91f97a60-1de5-4f54-9f11-3a2af86a5ab1', '29209b5b-6a45-4650-aac7-50d6e2566c5e', 'Coffee time ☕️ #coffeelover', 'https://images.unsplash.com/photo-1470071131384-001b85755536?w=800&q=80', now() - interval '24 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('e0b67f41-edab-4f3c-b49c-f4e242660453', '6b64a534-b8cb-485f-8a72-10bd3f876fff', 'Delicious food! 🍕 #foodie', 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80', now() - interval '19 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('265877bd-328d-4610-a089-8566adb94dae', '99ac3c33-a767-4e31-a51b-73909e9f8289', 'Exploring new places 🌍 #travel', 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80', now() - interval '21 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('58c50d27-1099-4419-840f-32cbb78ec2dc', '6b64a534-b8cb-485f-8a72-10bd3f876fff', 'Thinking about the future 🤔 #deepthoughts', 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80', now() - interval '26 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('6a715a24-1e6f-44d2-90b2-0ee3fae079bc', '92591183-d56e-425c-8142-a260a541ecbe', 'Coffee time ☕️ #coffeelover', 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80', now() - interval '13 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('fc7d37a3-7eb7-4d4b-8296-820490fc7023', '6b64a534-b8cb-485f-8a72-10bd3f876fff', 'Delicious food! 🍕 #foodie', 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80', now() - interval '0 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('2930e952-421c-4151-92e8-822321d0278c', '92591183-d56e-425c-8142-a260a541ecbe', 'Loving this view 🏙️ #cityscape', 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80', now() - interval '0 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('90885f07-ad2f-49a8-9357-989a1563d161', '92591183-d56e-425c-8142-a260a541ecbe', 'Thinking about the future 🤔 #deepthoughts', 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80', now() - interval '5 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('9d4814cf-33a1-49fe-9848-251615053dc6', '84ad35bc-5be1-42b1-947a-e073538fd82d', 'Thinking about the future 🤔 #deepthoughts', 'https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?w=800&q=80', now() - interval '27 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('97a01aa5-812e-45f6-a9c3-da1c31422b7c', '6b64a534-b8cb-485f-8a72-10bd3f876fff', 'Just finished a great workout 💪 #fitness', 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80', now() - interval '12 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('aa53df19-8401-46bf-b5e3-5ea5cf5e89dd', 'b1c1745b-5077-4c08-b014-8b782c22836f', 'Exploring new places 🌍 #travel', 'https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?w=800&q=80', now() - interval '1 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('e5ed248f-1fac-42ba-84cd-b877d0fc3dfd', '99ac3c33-a767-4e31-a51b-73909e9f8289', 'Just finished a great workout 💪 #fitness', 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80', now() - interval '26 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('835d99d9-6c67-4099-9fc8-cf509f1aa5f4', '6b64a534-b8cb-485f-8a72-10bd3f876fff', 'Coding away... 💻 #developer', 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80', now() - interval '28 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('389ac5aa-4397-4fa9-a191-d6eacfd11ef8', '48fd3313-058e-44bf-96e0-a0145a35d943', 'Loving this view 🏙️ #cityscape', 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80', now() - interval '5 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('8600fe0f-0590-4219-aeed-5f116e3e73fb', '99ac3c33-a767-4e31-a51b-73909e9f8289', 'Loving this view 🏙️ #cityscape', 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80', now() - interval '25 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('a2032828-5334-4cc8-8363-d84af0f027a6', '6b64a534-b8cb-485f-8a72-10bd3f876fff', 'Exploring new places 🌍 #travel', 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80', now() - interval '27 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('9c27e965-65c9-440e-a4a6-73c186baa855', '84ad35bc-5be1-42b1-947a-e073538fd82d', 'Enjoying the little things 😌 #mindfulness', 'https://images.unsplash.com/photo-1505909182942-e2f09aee3e89?w=800&q=80', now() - interval '9 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('6561561f-d350-4def-b91c-20be2f379e79', '92591183-d56e-425c-8142-a260a541ecbe', 'Feeling inspired today ✨ #inspiration', 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80', now() - interval '11 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('ec0692a5-40cf-43c4-9c00-8d0c63aa3335', '5a9bb5f0-0272-4f5e-83c0-79537c0c3087', 'Coffee time ☕️ #coffeelover', 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80', now() - interval '28 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('548a0698-d786-4bc4-a0fa-711988b7cab2', '8fb7f5ae-b1d5-4ee7-8652-b757393173a5', 'Coding away... 💻 #developer', 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80', now() - interval '17 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('43cc589b-d6e3-41ca-9bd2-316d74dbab5c', '47307a70-b9c7-41d6-87bb-f9b0d4fc957b', 'Just finished a great workout 💪 #fitness', 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80', now() - interval '14 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('eaf1d1fc-3630-4577-b9a0-ca0fecd9b293', '48fd3313-058e-44bf-96e0-a0145a35d943', 'Delicious food! 🍕 #foodie', 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80', now() - interval '10 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('cc3234ec-1d1d-4189-922b-a816552999f3', '99ac3c33-a767-4e31-a51b-73909e9f8289', 'Coffee time ☕️ #coffeelover', 'https://images.unsplash.com/photo-1517430816045-df4b7ef11df1?w=800&q=80', now() - interval '23 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('b215649d-3a78-4517-81d3-873c75fd990d', '8fb7f5ae-b1d5-4ee7-8652-b757393173a5', 'Thinking about the future 🤔 #deepthoughts', 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80', now() - interval '26 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('b4aa7422-a23b-40fb-92e5-c00ea976062e', '6b64a534-b8cb-485f-8a72-10bd3f876fff', 'Enjoying the little things 😌 #mindfulness', 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80', now() - interval '8 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('cdd43075-f0be-4ec3-ab35-9abaf3113ac5', '37a00b47-65e7-4b86-af53-fbf5a9e12eae', 'Coding away... 💻 #developer', 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80', now() - interval '20 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('9c72d220-ee95-4306-9752-262f9ac01a5f', '48fd3313-058e-44bf-96e0-a0145a35d943', 'Nature is amazing 🌿 #nature', 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80', now() - interval '29 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('e14c306a-dece-422a-a4c3-e2be81b00123', 'a0983f86-4812-47d2-992b-052e6af693c4', 'Coding away... 💻 #developer', 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80', now() - interval '4 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('ee2b7328-195a-4790-88c9-2d17b218714b', '99ac3c33-a767-4e31-a51b-73909e9f8289', 'Feeling inspired today ✨ #inspiration', 'https://images.unsplash.com/photo-1505909182942-e2f09aee3e89?w=800&q=80', now() - interval '18 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('5dc9ddd5-e569-4e25-a5a4-32426521babd', 'a0983f86-4812-47d2-992b-052e6af693c4', 'Just finished a great workout 💪 #fitness', 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80', now() - interval '29 days');
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) VALUES ('574f74b2-e7a3-48df-8814-0704f0d8b87c', '6b64a534-b8cb-485f-8a72-10bd3f876fff', 'Hanging out with friends! 🎉 #weekend', 'https://images.unsplash.com/photo-1470071131384-001b85755536?w=800&q=80', now() - interval '6 days');
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '89aa39c0-4d6b-471d-b5e8-91d0c4611da4', id, 'Loving this view 🏙️ #cityscape #omnix', 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80', now() - interval '33 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'fc2b28de-622c-4eed-b1ac-ea2e96d92ff4', id, 'Coding away... 💻 #developer #omnix', 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80', now() - interval '5 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'ea795986-6055-4df4-9f5c-c0bfc3b52067', id, 'Hanging out with friends! 🎉 #weekend #omnix', 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80', now() - interval '24 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'e3bf3f29-2e89-4fef-8645-1a16ce199fa5', id, 'What a beautiful day! ☀️ #sunshine #omnix', 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80', now() - interval '29 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'ba27663a-b2b4-4f3c-8418-d8565999310b', id, 'Nature is amazing 🌿 #nature #omnix', 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80', now() - interval '7 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'ecb7f202-9b0d-4a99-9185-326249d6c5a5', id, 'Loving this view 🏙️ #cityscape #omnix', 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80', now() - interval '30 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'a11e2cf2-df80-4491-ae1d-bac8ece5ff2f', id, 'Exploring new places 🌍 #travel #omnix', 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80', now() - interval '30 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'b2a6dc5d-3df1-4baa-a4f9-abcb8842281c', id, 'Loving this view 🏙️ #cityscape #omnix', 'https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?w=800&q=80', now() - interval '57 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '60815a54-805e-4f9c-9c48-386c239744c2', id, 'Feeling inspired today ✨ #inspiration #omnix', 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80', now() - interval '18 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'dacca22a-a3e7-4c41-accf-b083415e5daf', id, 'Hanging out with friends! 🎉 #weekend #omnix', 'https://images.unsplash.com/photo-1517430816045-df4b7ef11df1?w=800&q=80', now() - interval '20 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '0ca31152-94b1-4c39-8515-b14c49b3b05c', id, 'Feeling inspired today ✨ #inspiration #omnix', 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80', now() - interval '35 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '994ef35e-01df-4f29-a36f-c10e0e53f65c', id, 'Coding away... 💻 #developer #omnix', 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80', now() - interval '12 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '7d6cfd33-59d3-4baa-852d-22e89f978789', id, 'Exploring new places 🌍 #travel #omnix', 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80', now() - interval '35 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '6773f9aa-9912-42b9-bd7f-b3802718a218', id, 'Enjoying the little things 😌 #mindfulness #omnix', 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80', now() - interval '21 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '43c81915-dda1-44c2-84b4-c8746f72afd4', id, 'Enjoying the little things 😌 #mindfulness #omnix', 'https://images.unsplash.com/photo-1505909182942-e2f09aee3e89?w=800&q=80', now() - interval '52 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '26e522fe-080b-4733-aed9-a88c5ceba546', id, 'Delicious food! 🍕 #foodie #omnix', 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80', now() - interval '32 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '7f2104ae-61f2-4494-90b5-a4090fe1f36e', id, 'Coding away... 💻 #developer #omnix', 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80', now() - interval '29 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '6c8e77aa-828f-4ec7-8c86-d1298d61e9e4', id, 'Hanging out with friends! 🎉 #weekend #omnix', 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80', now() - interval '58 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'deadadc3-704d-48e7-a5c7-5b16f7497b55', id, 'Exploring new places 🌍 #travel #omnix', 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80', now() - interval '29 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'fb809e65-6e97-41fa-868a-b8aa82f1a591', id, 'Coffee time ☕️ #coffeelover #omnix', 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80', now() - interval '34 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '78dd5ee8-840b-41b3-83f2-cb09d2cc58b0', id, 'Loving this view 🏙️ #cityscape #omnix', 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80', now() - interval '13 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT '4461d78c-9e39-4dbb-b328-32f18a0b2913', id, 'Coffee time ☕️ #coffeelover #omnix', 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80', now() - interval '22 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'b74e97c9-d77f-400c-b786-5d23e92c8e54', id, 'Hanging out with friends! 🎉 #weekend #omnix', 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80', now() - interval '49 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'ca838294-2ab7-4eba-8f90-8a2f600a972e', id, 'Loving this view 🏙️ #cityscape #omnix', 'https://images.unsplash.com/photo-1505909182942-e2f09aee3e89?w=800&q=80', now() - interval '46 days' FROM my_user;
+
+WITH my_user AS (SELECT id FROM auth.users WHERE email = 'rajsoni4418@gmail.com' LIMIT 1)
+INSERT INTO public.posts (id, user_id, caption, image_url, created_at) 
+SELECT 'b9fc560c-427d-4ccd-ab4d-299122a313e6', id, 'Hanging out with friends! 🎉 #weekend #omnix', 'https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?w=800&q=80', now() - interval '26 days' FROM my_user;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '548a0698-d786-4bc4-a0fa-711988b7cab2', '99ac3c33-a767-4e31-a51b-73909e9f8289', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'b28723ca-992d-453d-9b82-644a89a1c13d', '5a9bb5f0-0272-4f5e-83c0-79537c0c3087', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '43cc589b-d6e3-41ca-9bd2-316d74dbab5c', 'b1c1745b-5077-4c08-b014-8b782c22836f', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '4cabd312-c841-4025-86e1-d4345cd5787b', 'b1c1745b-5077-4c08-b014-8b782c22836f', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '76b03bd7-775b-4fb8-872e-d3798dc79861', '84ad35bc-5be1-42b1-947a-e073538fd82d', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '9c27e965-65c9-440e-a4a6-73c186baa855', '92591183-d56e-425c-8142-a260a541ecbe', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '78dd5ee8-840b-41b3-83f2-cb09d2cc58b0', '92591183-d56e-425c-8142-a260a541ecbe', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'ba27663a-b2b4-4f3c-8418-d8565999310b', '99ac3c33-a767-4e31-a51b-73909e9f8289', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'fc7d37a3-7eb7-4d4b-8296-820490fc7023', '47307a70-b9c7-41d6-87bb-f9b0d4fc957b', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '6c8e77aa-828f-4ec7-8c86-d1298d61e9e4', '92591183-d56e-425c-8142-a260a541ecbe', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '265877bd-328d-4610-a089-8566adb94dae', '99ac3c33-a767-4e31-a51b-73909e9f8289', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'a2032828-5334-4cc8-8363-d84af0f027a6', 'a0983f86-4812-47d2-992b-052e6af693c4', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'ecb7f202-9b0d-4a99-9185-326249d6c5a5', 'b1c1745b-5077-4c08-b014-8b782c22836f', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'deadadc3-704d-48e7-a5c7-5b16f7497b55', '29209b5b-6a45-4650-aac7-50d6e2566c5e', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '9c72d220-ee95-4306-9752-262f9ac01a5f', '37a00b47-65e7-4b86-af53-fbf5a9e12eae', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '4461d78c-9e39-4dbb-b328-32f18a0b2913', '29209b5b-6a45-4650-aac7-50d6e2566c5e', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '9c72d220-ee95-4306-9752-262f9ac01a5f', '29209b5b-6a45-4650-aac7-50d6e2566c5e', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'de180bdd-4511-4b55-8f12-1966afb703f7', '37a00b47-65e7-4b86-af53-fbf5a9e12eae', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '9d4814cf-33a1-49fe-9848-251615053dc6', '6b64a534-b8cb-485f-8a72-10bd3f876fff', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '76b03bd7-775b-4fb8-872e-d3798dc79861', 'b1c1745b-5077-4c08-b014-8b782c22836f', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'ee2b7328-195a-4790-88c9-2d17b218714b', '29209b5b-6a45-4650-aac7-50d6e2566c5e', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'b74e97c9-d77f-400c-b786-5d23e92c8e54', '84ad35bc-5be1-42b1-947a-e073538fd82d', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'e1eecede-e8f7-477f-b94c-9eff8c404c5d', '48fd3313-058e-44bf-96e0-a0145a35d943', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'd7753dd9-9a63-42e8-b4a6-4956d1e1b94c', '8fb7f5ae-b1d5-4ee7-8652-b757393173a5', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'f540a928-1ae4-4724-87a5-c5a2eaeb0223', '6b64a534-b8cb-485f-8a72-10bd3f876fff', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '89aa39c0-4d6b-471d-b5e8-91d0c4611da4', '29209b5b-6a45-4650-aac7-50d6e2566c5e', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '78dd5ee8-840b-41b3-83f2-cb09d2cc58b0', '8fb7f5ae-b1d5-4ee7-8652-b757393173a5', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '6561561f-d350-4def-b91c-20be2f379e79', '99ac3c33-a767-4e31-a51b-73909e9f8289', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'ba27663a-b2b4-4f3c-8418-d8565999310b', '99ac3c33-a767-4e31-a51b-73909e9f8289', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'e3159919-842c-422d-82c6-6880c87782f9', '29209b5b-6a45-4650-aac7-50d6e2566c5e', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'aa53df19-8401-46bf-b5e3-5ea5cf5e89dd', '99ac3c33-a767-4e31-a51b-73909e9f8289', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '9c27e965-65c9-440e-a4a6-73c186baa855', '29209b5b-6a45-4650-aac7-50d6e2566c5e', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '9d4814cf-33a1-49fe-9848-251615053dc6', '29209b5b-6a45-4650-aac7-50d6e2566c5e', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '6561561f-d350-4def-b91c-20be2f379e79', '48fd3313-058e-44bf-96e0-a0145a35d943', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'b4aa7422-a23b-40fb-92e5-c00ea976062e', '99ac3c33-a767-4e31-a51b-73909e9f8289', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'b74e97c9-d77f-400c-b786-5d23e92c8e54', '48fd3313-058e-44bf-96e0-a0145a35d943', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '7ae5bb09-46cb-4caf-9a51-1028508b253e', '47307a70-b9c7-41d6-87bb-f9b0d4fc957b', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '60815a54-805e-4f9c-9c48-386c239744c2', 'a0983f86-4812-47d2-992b-052e6af693c4', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '994ef35e-01df-4f29-a36f-c10e0e53f65c', '5a9bb5f0-0272-4f5e-83c0-79537c0c3087', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '9d4814cf-33a1-49fe-9848-251615053dc6', 'b1c1745b-5077-4c08-b014-8b782c22836f', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '9fee8502-8eae-4871-852a-7fc7d0320223', '48fd3313-058e-44bf-96e0-a0145a35d943', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '994ef35e-01df-4f29-a36f-c10e0e53f65c', '47307a70-b9c7-41d6-87bb-f9b0d4fc957b', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'e3bf3f29-2e89-4fef-8645-1a16ce199fa5', '99ac3c33-a767-4e31-a51b-73909e9f8289', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '9d4814cf-33a1-49fe-9848-251615053dc6', '47307a70-b9c7-41d6-87bb-f9b0d4fc957b', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'ee2b7328-195a-4790-88c9-2d17b218714b', '29209b5b-6a45-4650-aac7-50d6e2566c5e', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '89aa39c0-4d6b-471d-b5e8-91d0c4611da4', '37a00b47-65e7-4b86-af53-fbf5a9e12eae', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), '6773f9aa-9912-42b9-bd7f-b3802718a218', '6b64a534-b8cb-485f-8a72-10bd3f876fff', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'fb809e65-6e97-41fa-868a-b8aa82f1a591', '84ad35bc-5be1-42b1-947a-e073538fd82d', now()) ON CONFLICT DO NOTHING;
+INSERT INTO public.likes (id, post_id, user_id, created_at) VALUES (gen_random_uuid(), 'ee2b7328-195a-4790-88c9-2d17b218714b', '84ad35bc-5be1-42b1-947a-e073538fd82d', now()) ON CONFLICT DO NOTHING;
